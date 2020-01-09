@@ -13,7 +13,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 1rem;
 }
 ol,
 ul {
@@ -67,7 +67,59 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 800px;
+  max-width: 80%;
   width: 100%;
   margin: 0 auto;
+}
+header {
+  border: 2px solid teal;
+}
+h1 {
+  text-align: center;
+  font-size: 10vh;
+  color: red;
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+}
+nav {
+  border: 2px solid yellow;
+}
+a,
+p {
+  margin: 1em;
+}
+h1,
+h3,
+nav,
+img {
+  line-height: 120%;
+}
+.logo {
+  border: 2px solid red;
+  width: 100%;
+  text-align: center;
+  line-height: 90%;
+  padding-top: -5em;
+}
+.main-button {
+  border: 4px solid purple;
+}
+footer {
+  border: 1px solid green;
+  text-align: center;
+}
+span {
+  text-align: center;
+}
+div.container {
+  border: 2px solid tomato;
+}
+.bottom {
+  text-align: center;
+  border: 2px solid olive;
+}
+ion-icon {
+  margin: 1em;
 }
