@@ -1,3 +1,39 @@
+.button {
+  color: crimson;
+  background-color: midnightblue;
+  width: 80%;
+  font-size: 1.5rem;
+  border: 2px solid wheat;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5%;
+  font-weight: bold;
+}
+.button:hover {
+  cursor: pointer;
+  color: midnightblue;
+  background-color: red;
+  border-color: grey;
+}
+.container header .banner .callToAction .register {
+  color: crimson;
+  background-color: midnightblue;
+  width: 80%;
+  font-size: 1.5rem;
+  border: 2px solid wheat;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5%;
+  font-weight: bold;
+}
+.container header .banner .callToAction .register:hover {
+  cursor: pointer;
+  color: midnightblue;
+  background-color: red;
+  border-color: grey;
+}
 .box-shadow {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -180,6 +216,22 @@ p {
   .container header .banner .callToAction {
     width: 60%;
   }
+  .container header .banner .callToAction .register {
+    display: inline-block;
+    padding: 0%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .container .middle {
+    flex-direction: column;
+    margin: 2% 10%;
+  }
+  .container .middle .feat {
+    margin: 5% 0;
+  }
+  .container .middle .feat i {
+    font-size: 5rem;
+  }
 }
 .container .top {
   display: flex;
@@ -284,4 +336,61 @@ ion-icon {
   font-size: 1.5rem;
   color: whitesmoke;
   padding: 1%;
+}
+.container header .banner .callToAction .signup {
+  color: #ffa820;
+  background-color: #dfe9ac;
+  width: 80%;
+  font-size: 1.5rem;
+  border: 2px solid #ffa820;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5%;
+  font-weight: bold;
+}
+.container .intro {
+  margin: 5% 0;
+  width: 100%;
+  padding: 0 5%;
+}
+.container .intro h3 {
+  text-align: center;
+  margin: 3% 0;
+}
+.container .intro p {
+  text-align: center;
+  margin: 2% 0;
+}
+.container .middle {
+  display: flex;
+  align-content: center;
+  margin: 5% 0;
+  padding: 2%;
+  background-color: #dfe9ac;
+}
+.container .middle .feat {
+  width: 100%;
+  text-align: center;
+  color: #28590c;
+}
+.container .middle .feat ion-icon {
+  font-size: 3rem;
+  margin: 8% 0;
+  color: #cda03f;
+}
+.container .why {
+  margin: 5% 0;
+  width: 100%;
+  z-index: 0;
+}
+.container .why h2 {
+  text-align: center;
+  z-index: 1;
+  margin: 3% 0;
+}
+.container .why p {
+  text-align: center;
+  z-index: 1;
+  margin: 2% 5%;
 }
