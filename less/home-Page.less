@@ -1,12 +1,39 @@
-div.container {
-	border: 2px solid tomato;
+.container {
+	z-index: 0;
+	background-color: #ebeee2;
+
+	border: 3px solid teal;
 }
 
-.bottom {
+.container header .banner {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	background: url('../img/images.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.container header .banner .callToAction {
+	width: 40%;
+	line-height: 1.3rem;
+	background-color: midnightblue;
 	text-align: center;
-	border: 2px solid olive;
+	border: 2px solid crimson;
+	padding-top: 1rem;
 }
 
-ion-icon {
-	margin: 0.5em;
+.container header .banner .callToAction h1 {
+	font-size: 4rem;
+	color: red;
+	padding: 3%;
+}
+
+.container header .banner .callToAction h3 {
+	font-size: 1.5rem;
+	color: whitesmoke;
+	padding: 1%;
 }
