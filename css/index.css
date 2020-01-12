@@ -232,6 +232,17 @@ p {
   .container .middle .feat i {
     font-size: 5rem;
   }
+  .wrapper {
+    flex-flow: row wrap;
+  }
+  .wrapper .card {
+    width: 40%;
+    margin: 2%;
+  }
+  .wrapper .card {
+    width: 60%;
+    margin: 2%;
+  }
 }
 .container .top {
   display: flex;
@@ -334,18 +345,6 @@ p {
   color: whitesmoke;
   padding: 1%;
 }
-.container header .banner .callToAction .signup {
-  color: #ffa820;
-  background-color: #dfe9ac;
-  width: 80%;
-  font-size: 1.5rem;
-  border: 2px solid #ffa820;
-  border-radius: 10px;
-  text-align: center;
-  text-decoration: none;
-  padding: 5%;
-  font-weight: bold;
-}
 .container .intro {
   margin: 5% 0;
   width: 100%;
@@ -390,4 +389,81 @@ p {
   text-align: center;
   z-index: 1;
   margin: 2% 5%;
+}
+header .team_banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background: url('../img/download\ \(2\).jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+header .team_banner .team_box {
+  width: 40%;
+  line-height: 3rem;
+  background-color: midnightblue;
+  text-align: center;
+  border: 2px solid crimson;
+}
+header .team_banner .team_box h4 {
+  font-size: 2rem;
+  color: white;
+  padding: 5%;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url('../img/download\ \(1\).jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-flow: row wrap;
+  padding: 2%;
+}
+.wrapper .card {
+  margin: 1%;
+  width: 30%;
+  text-align: center;
+  background-color: #dfe9ac;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 3%;
+}
+.wrapper .card h2 {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 3% 0;
+}
+.wrapper .card h3 {
+  width: 100%;
+  margin: 2% 0;
+  font-size: 2rem;
+  font-style: italic;
+}
+.wrapper .card .prof-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.wrapper .card .prof-links ion-icon {
+  font-size: 3rem;
+  color: grey;
+}
+.wrapper .card .prof-links ion-icon:hover {
+  cursor: pointer;
+  color: peru;
+}
+.wrapper .card .prof-links a {
+  margin: 2% 10%;
+}
+.wrapper .card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
